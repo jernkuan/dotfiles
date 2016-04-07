@@ -1,0 +1,16 @@
+[include]
+        path = ~/.gitconfig.local
+[color]
+	ui = auto
+[merge]
+	tool = meld
+[diff]
+	tool = meld
+[alias]
+	dt = difftool --dir-diff
+	compare = log --left-right --graph --cherry-pick --oneline
+[core]
+	editor = vim
+[push]
+	default = simple
+
